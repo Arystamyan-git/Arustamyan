@@ -17,6 +17,11 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+CREATE DATABASE IF NOT EXISTS `kid_world`
+  DEFAULT CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_520_ci;
+USE `kid_world`;
+
 --
 -- База данных: `kid_world`
 --
