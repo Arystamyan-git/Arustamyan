@@ -1,0 +1,2 @@
+<footer class="site-footer"><div class="container footer-grid"><div><strong>ООО «Детский мир»</strong><div>© Copyright, 2024</div><div class="footer-links"><a href="<?php echo esc_url(get_template_directory_uri().'/assets/privacy_policy_agrotorg.pdf'); ?>" target="_blank" rel="noopener">Условия использования интернет-магазина</a></div></div>
+<div class="socials" aria-label="Социальные сети"><?php echo do_shortcode('[detmir_socials]'); ?></div></div></footer><?php wp_footer(); ?></body></html>

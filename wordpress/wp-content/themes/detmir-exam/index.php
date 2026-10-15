@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="site-main section"><div class="container"><?php if(have_posts()): while(have_posts()): the_post(); ?><article><h1><?php the_title(); ?></h1><?php the_content(); ?></article><?php endwhile; the_posts_pagination(); else: ?><p>Материалы не найдены.</p><?php endif; ?></div></main><?php get_footer(); ?>
